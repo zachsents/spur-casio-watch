@@ -22,7 +22,8 @@ export const watchApp = defineApp({
       size: {
         aspect: "square",
         min: { cols: 2, rows: 2 },
-        preferred: { cols: 4, rows: 4 },
+        preferred: { cols: 3, rows: 3 },
+        max: { cols: 3, rows: 3 },
         grows: true,
       },
       a2ui: () => mcpApp("face", { title: "Wave Ceptor", html }),
