@@ -2,8 +2,9 @@
 // A2UI's `McpApp` component; it suggests Home.
 import { defineApp, HOME, mcpApp } from "spur-kit"
 
-import { faceHtml } from "./build.ts" with { type: "macro" }
+import { faceHtml } from "./build.ts"
 
+// Built when the spur starts: Bun runs no macros from an installed package.
 const html = faceHtml()
 
 export const watchApp = defineApp({

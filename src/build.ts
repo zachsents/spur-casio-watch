@@ -1,5 +1,4 @@
-// The face as one HTML document, its script bundled in. Imported as a Bun macro, so it builds when
-// the spur loads, not in the view.
+// The face as one HTML document, its script bundled in: an MCP App view loads nothing from outside.
 import path from "node:path"
 import { view } from "spur-kit"
 
