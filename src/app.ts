@@ -1,10 +1,10 @@
-// A spur that is only a widget: a Casio Wave Ceptor face, live. Its drawing is an MCP App inside
-// A2UI's `McpApp` component; it suggests Home.
-import { defineApp, mcpApp } from "spur-kit"
+// An extension that is only a widget: a Casio Wave Ceptor face, live. Its drawing is an MCP App
+// inside A2UI's `McpApp` component; it suggests Home.
+import { defineApp, mcpApp } from "switch-ext-kit"
 
 import { faceHtml } from "./build.ts"
 
-// Built when the spur starts: Bun runs no macros from an installed package.
+// Built when the extension starts: Bun runs no macros from an installed package.
 const html = faceHtml()
 
 export const watchApp = defineApp({
