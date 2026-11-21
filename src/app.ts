@@ -1,6 +1,6 @@
 // A spur that is only a widget: a Casio Wave Ceptor face, live. Its drawing is an MCP App inside
 // A2UI's `McpApp` component; it suggests Home.
-import { defineApp, HOME, mcpApp } from "spur-kit"
+import { defineApp, mcpApp } from "spur-kit"
 
 import { faceHtml } from "./build.ts"
 
@@ -18,7 +18,6 @@ export const watchApp = defineApp({
       title: "Wave Ceptor",
       surfaces: ["space"],
       resource: "ui://watch/face",
-      space: HOME,
       size: {
         aspect: "square",
         min: { cols: 2, rows: 2 },
