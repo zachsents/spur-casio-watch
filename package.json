@@ -30,6 +30,7 @@
   "extension": {
     "name": "watch",
     "main": "src/main.ts",
+    "heartbeat": 300000,
     "widgets": [
       "face"
     ]
