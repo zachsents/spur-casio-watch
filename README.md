@@ -1,3 +1,5 @@
+**Moved to [zachsents/switch](https://github.com/zachsents/switch/tree/main/extensions/casio-watch).** This repo is archived.
+
 # switch-ext-casio-watch
 
 A live Casio Wave Ceptor (WVA-M630D) face, drawn in SVG: dial, lumed batons, hands and the LCD with weekday and date. A widget only, suggested for Home.
